@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, Container, Image, Table } from 'react-bootstrap';
 import { useSelector, useDispatch } from 'react-redux';
 import { clear, removeFromCard } from '../rtk/slices/card-slice';
@@ -10,7 +11,7 @@ function Cart() {
     },0);
     return (
         <Container>
-            <h1>Welcome to cart</h1>
+            <h1>Welcome to cart Product</h1>
             <Button className='m-4' variant='primary' onClick={()=>{dispatch(clear())}}>Clear Cart</Button>
             <h5>Total Price: {totalPrice.toFixed(2)} $</h5>
             <Table striped bordered hover size="sm">

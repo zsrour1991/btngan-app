@@ -1,3 +1,4 @@
+import React from 'react';
 import { addToCard } from "../rtk/slices/card-slice";
 import {useDispatch} from 'react-redux';
 import Button from 'react-bootstrap/Button';
