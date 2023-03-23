@@ -18,5 +18,5 @@ export const fetchProducts=createAsyncThunk("productSlice/fetchProducts",async()
     }
 
 });
-export const {}=productSlice.actions;
+//export const {}=productSlice.actions;
 export default productSlice.reducer;
